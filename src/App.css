@@ -88,20 +88,21 @@ nav a:active{
 .intro {
   text-align: center;
   padding: 20px;
-  background-color: #fff;
+  background-color: #ffffff4b;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px green;
   margin-bottom: 30px;
 }
 
 .intro h2 {
   font-size: 32px;
   margin-bottom: 10px;
+  text-shadow: 0px 0px 2px green;
 }
 
 .intro p {
   font-size: 18px;
-  color: #555;
+  color:white;
 }
 
 /* Stats section */
@@ -113,33 +114,35 @@ nav a:active{
 }
 
 .stat {
-  background-color: #fff;
+  background-color: #ffffff4f;
   padding: 15px;
   width: 30%;
   text-align: center;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 2px green;
 }
 
 .stat h3 {
   font-size: 24px;
+  text-shadow: 0px 0px 2px green;
   margin-bottom: 10px;
 }
 
 .stat p {
   font-size: 18px;
-  color: #555;
+  color:white;
 }
 
 /* Projects section */
 .projects {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .projects h2 {
   font-size: 28px;
   text-align: center;
   margin-bottom: 20px;
+  text-shadow: 0px 0px 2px green;
 }
 
 .project-list {
@@ -148,7 +151,7 @@ nav a:active{
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: #ffffff3a;
   padding: 15px;
   width: 30%;
   border-radius: 8px;
@@ -167,17 +170,10 @@ nav a:active{
 .project-card h4 {
   font-size: 20px;
   margin-bottom: 10px;
+  text-shadow: 0px 0px 2px green ;
 }
 
 .project-card p {
   font-size: 16px;
-  color: #777;
-}
-
-/* Footer section */
-footer {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 14px;
-  color: #777;
+  color:white;
 }
