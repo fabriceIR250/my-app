@@ -47,20 +47,19 @@ nav button {
   cursor: pointer;
   position: relative;
   bottom: 0px;
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 
 nav button:hover {
   border: 1px solid black;
   border-radius: 5px;
   background:transparent;
-  color: black;
+  color:white;
   outline: none;
 }
 
 nav a:hover {
-  border-bottom: 1px solid black;
-  border-radius: 5px;
+color: white;
 }
 
 /* For smaller screens (responsive design) */
