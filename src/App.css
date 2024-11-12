@@ -247,3 +247,65 @@ main button:hover {
   font-size: 16px;
   color:white;
 }
+
+
+::-webkit-scrollbar{
+  background:transparent;
+  width: 10px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background:green;
+  border-radius: 5px;
+}
+
+/* Footer section */
+
+/* Footer Styles */
+footer {
+  backdrop-filter:blur(20px);
+  color: #fff;
+  width: 89.2%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px green;
+  margin-left: 45px;
+  padding: 40px 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left, .footer-center, .footer-right {
+  flex: 1;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #04d9ff;
+}
+
+footer p {
+  margin: 0;
+}
+

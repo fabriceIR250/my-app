@@ -63,8 +63,26 @@ function App() {
   </div>
 
 
-    
+    <br></br>
 
+  <footer>
+  <div class="footer-container">
+    <div class="footer-left">
+      <p>&copy; 2024 FAB & PATRICK & PRINCE. All Rights Reserved.</p>
+    </div>
+    <div class="footer-center">
+      <p>Designed & Developed by FAB & PATRICE</p>
+    </div>
+    <div class="footer-right">
+      <ul>
+        <li><a href="mailto:youremail@example.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+        <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
 
     </div>
